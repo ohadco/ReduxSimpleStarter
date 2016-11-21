@@ -1,0 +1,17 @@
+scss_files: 'app/assets/stylesheets/**/*.scss'
+
+exclude:
+  - 'app/assets/stylesheets/compass/**'
+
+linters:
+  SelectorFormat:
+    convention: hyphenated_BEM
+  VendorPrefixes:
+    enabled: false
+  PlaceholderInExtend:
+    enabled: false
+  LeadingZero:
+    enabled: false
+  PropertySpelling:
+    extra_properties:
+      - behavior
